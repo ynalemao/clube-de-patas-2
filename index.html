@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Clube de Patas</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#ff914d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#333;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.animais{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    width:250px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px;
+}
+
+.card p{
+    padding:0 10px;
+}
+
+.botao{
+    display:inline-block;
+    margin:10px;
+    padding:10px 20px;
+    background:#ff914d;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🐾 Clube de Patas</h1>
+<p>Adote um amigo e mude uma vida</p>
+</header>
+
+<nav>
+<a href="#">Início</a>
+<a href="#">Animais</a>
+<a href="#">Como Adotar</a>
+<a href="#">Contato</a>
+</nav>
+
+<div class="container">
+
+<h2 style="text-align:center;">Animais Disponíveis para Adoção</h2>
+
+<div class="animais">
+
+<div class="card">
+<img src="https://placedog.net/400/300" alt="Cão">
+<h3>Rex</h3>
+<p>Cão amigável, 2 anos, muito brincalhão.</p>
+<a class="botao" href="#">Adotar</a>
+</div>
+
+<div class="card">
+<img src="https://placekitten.com/400/300" alt="Gato">
+<h3>Mimi</h3>
+<p>Gata calma e carinhosa, 1 ano.</p>
+<a class="botao" href="#">Adotar</a>
+</div>
+
+<div class="card">
+<img src="https://placedog.net/401/300" alt="Cão">
+<h3>Thor</h3>
+<p>Cão protetor e leal, 3 anos.</p>
+<a class="botao" href="#">Adotar</a>
+</div>
+
+<div class="card">
+<img src="https://placekitten.com/401/300" alt="Gato">
+<h3>Luna</h3>
+<p>Gata doce e muito brincalhona.</p>
+<a class="botao" href="#">Adotar</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Clube de Patas | Ajude a dar um lar aos animais 🐾</p>
+</footer>
+
+</body>
+</html>
